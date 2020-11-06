@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
-</body>
-<script type="text/javascript">
-  window.onload="initEventListeners()";
-  function initEventListeners(e) {
-    console.log(window.parent);
-}
-</script>
+  <head>
+    <script type="text/javascript">
+       window.document.onload = function(e){ 
+          console.log("document.onload"); 
+      } 
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
